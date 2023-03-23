@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+	font-family: Courier New;
+	text-align: justify;
+	margin:auto;
+	width:1420px;
+	}
+
+h1 { 	color: red;
+	font-size: 30pt;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+ul {
+    	list-style-type: none; /*Questo comando definisce il tipo di simbolo prima di ogni punto dell'elenco */
+	overflow: hidden;
+    	background-color: red;
+	}
+			
+
+li {	
+	float:left;
+	display: inline; /*Questo comando permette di mettere tutti gli <li> su una unica riga*/ 
+	}
+
+li a {
+	display: block; /*VERAMENTE IMPORTANTE*/
+    	color: black;
+	font-weight:bold;
+   	text-align: center;
+   	padding: 14px 16px;
+   	text-decoration: none;
+	background-color: red;
+	font-style: normal;}
+	
+.attivo {
+   	background-color: yellow;
+	color: red;
+	font-style: italic;
+	}
+
+li a:hover:not(.attivo) {
+    	background-color: black;
+	color:red;
+	font-style: italic;
+	font-weight: bold;
+	}
+
+img{
+	position:relative;
+	color:#FFFFFF;
+	font-weight:bold;
+	}
+
+
+
+
+
